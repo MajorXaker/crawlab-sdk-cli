@@ -1,0 +1,16 @@
+[project]
+name = "crawlab-sdk-cli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "grpc-interceptor-headers>=0.1.0",
+    "grpcio>=1.71.0",
+    "grpcio-tools>=1.71.0",
+    "pathspec>=0.12.1",
+    "print-color>=0.4.6",
+    "pymongo>=4.11.3",
+    "pyyaml>=6.0.2",
+    "requests>=2.32.3",
+]
