@@ -2,8 +2,8 @@ import os
 import unittest
 from argparse import Namespace
 
-from cli.actions.login import cli_login
-from cli.actions.migrate import cli_migrate
+from cli.cli_actions.login import cli_login
+from cli.cli_actions.migrate import cli_migrate
 from client import get_api_address
 
 

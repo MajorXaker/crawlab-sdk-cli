@@ -1,12 +1,12 @@
 import argparse
 
-from cli.actions.migrate import cli_migrate
+from cli.cli_actions.migrate import cli_migrate
 from constants.upload import CLI_ACTION_UPLOAD, CLI_ACTION_LOGIN, CLI_DEFAULT_API_ADDRESS, \
     CLI_DEFAULT_API_USERNAME, \
     CLI_DEFAULT_API_PASSWORD, CLI_ACTION_CONFIG, CLI_ACTION_MIGRATE
-from cli.actions.config import cli_config_func
-from cli.actions.login import cli_login
-from cli.actions.upload import cli_upload
+from cli.cli_actions.config import cli_config_func
+from cli.cli_actions.login import cli_login
+from cli.cli_actions.upload import cli_upload
 
 # root parser
 root_parser = argparse.ArgumentParser(description='CLI tool for Crawlab')

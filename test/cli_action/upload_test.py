@@ -6,8 +6,8 @@ from datetime import datetime
 
 import requests
 
-from cli.actions.login import cli_login
-from cli.actions.upload import cli_upload
+from cli.cli_actions.login import cli_login
+from cli.cli_actions.upload import cli_upload
 from client import get_api_address
 from config.config import config
 
